@@ -1,0 +1,32 @@
+@import '../../gobal.scss';
+
+.menu{
+    width:250px;
+    height: 100vh;
+    background-color: $primary;
+    position:fixed;
+    top:0;
+    right:-250px;
+    z-index:2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    &.active{
+        right:0;
+    }
+
+    ul{
+        margin:0;
+        padding:0;
+       li{
+        list-style: none;
+
+        a{
+            text-decoration:none;
+        }
+       }
+    }
+}
