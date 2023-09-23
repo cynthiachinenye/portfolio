@@ -4,9 +4,9 @@ import '../menu/menu.scss'
 function Menu({ menuBar, setMenuBar }) {
     
   return (
-    <div className={'menu'+ (menuBar && 'active')}>
+    <div className={"menubar " + (menuBar && "active")}>
     <ul>
-      <li onclick={()=>setMenuBar(false)}>
+      <li onClick={()=>setMenuBar(false)}>
       <a href="#intro">Home</a>
       </li>
       <li onClick ={()=>setMenuBar(false)}>

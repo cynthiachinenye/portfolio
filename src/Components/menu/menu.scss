@@ -1,15 +1,14 @@
 @import '../../gobal.scss';
 
-.menu{
+.menubar{
     width:250px;
     height: 100vh;
-    background-color: $primary;
+    background-color: $mainColor;
     position:fixed;
     top:0;
     right:-250px;
     z-index:2;
     display:flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
@@ -32,13 +31,19 @@
        li{
         margin-bottom:25px;
             font-size:25px;
+            color:#fff;
 
         a{
             text-decoration:none;
+            color:$primary;
         }
-        &.hover{
-            font-weight:400;
+        &:hover{
+            font-weight:500;
+            
+           
         }
+    
+
        }
     }
 }

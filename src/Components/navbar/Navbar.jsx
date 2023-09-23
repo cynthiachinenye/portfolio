@@ -1,9 +1,12 @@
-import '../navbar/navbar.scss'
+import '../navbar/navbar.scss';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
+
+
 function Navbar({menuBar,setMenuBar}) {
   return (
-    <div className={'nav'  + (menuBar && 'active')}>
+    // <div className={'nav'  + (menuBar && 'active')}>
+    <div className={"nav " + (menuBar && "active")}>
 
     <div className='wrapper'>
     <div className='left'>
