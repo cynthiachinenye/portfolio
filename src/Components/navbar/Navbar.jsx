@@ -1,4 +1,4 @@
-import './navbar.scss'
+import '../navbar/navbar.scss'
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
 function Navbar({menuBar,setMenuBar}) {

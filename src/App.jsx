@@ -8,8 +8,8 @@ function App() {
   const [menuBar, setMenuBar] = useState(false)
   return (
     <div className="App">
-     <Navbar open={menuBar} menu={setMenuBar}/>
-     <Menu open={menuBar} menu={setMenuBar}/>
+     <Navbar menuBar={menuBar} setMenuBar={setMenuBar}/>
+     <Menu menuBar={menuBar} setMenuBar={setMenuBar}/>
     </div>
   );
 }
