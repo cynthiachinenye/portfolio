@@ -3,4 +3,57 @@
 .intro{
     width:100%;
     background-color: $mainColor;
-}
+    display:flex;
+
+    .left{
+        flex:0.5;
+        overflow: hidden;
+
+        .img-container{
+            width:650px;
+            height: 650px;
+            background-color: $primary;
+            border-radius:50%;
+            display:flex;
+            justify-content:center ;
+            align-items: flex-end ;
+            float:right;
+
+            img{
+                height:110%;
+                border: none;
+            }
+        }
+        
+    }
+
+    .right{
+        flex:0.5;
+        position: relative;
+        .right-content{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height:100%;
+            width:100%;
+            color:#fff;
+
+            h2{
+                font-size:55px;
+                font-weight:80;
+            }
+            h1{
+                font-size:50px;
+            }
+            h3{
+                font-size:30px;
+                font-weight:200;
+            }
+            
+        }
+
+    }
+
+
+   }
