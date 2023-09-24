@@ -10,7 +10,7 @@ function Menu({ menuBar, setMenuBar }) {
       <a href="#intro">Home</a>
       </li>
       <li onClick ={()=>setMenuBar(false)}>
-       <a href='#portifolio'>portifolio</a>
+       <a href='#portfolio'>portfolio</a>
       </li>
       <li onClick ={()=>setMenuBar(false)}>
        <a href='#work'>Work</a>
