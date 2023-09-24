@@ -28,7 +28,12 @@ function Intro() {
        <h1>Cynthia</h1>
        <h3>Freelance  <span ref={text}></span></h3>
       </div>
-     </div>   
+        <a href='#portfolio'>
+        <img src='Assets/image.png' alt=''/>
+
+        </a>
+     </div>  
+
     </div>
   )
 }
