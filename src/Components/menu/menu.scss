@@ -3,7 +3,7 @@
 .menubar{
     width:250px;
     height: 100vh;
-    background-color: $mainColor;
+    background-color: $primary;
     position:fixed;
     top:0;
     right:-250px;
@@ -35,7 +35,7 @@
 
         a{
             text-decoration:none;
-            color:$primary;
+            color:#fff;
         }
         &:hover{
             font-weight:500;

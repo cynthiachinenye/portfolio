@@ -2,7 +2,7 @@ import '../portfolio/portfolio.scss'
 
 function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
       
     </div>
   )

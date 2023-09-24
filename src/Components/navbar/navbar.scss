@@ -28,7 +28,7 @@
                 cursor: pointer;
                 a{
                     text-decoration: none;
-                    color:$primary;
+                    color:#fff;
                     
                 }
         
@@ -49,7 +49,7 @@
                     color:#fff;
                    
                    &:hover{
-                    color:$primary;
+                    color:#fff;
                    }
                 }
 
@@ -73,7 +73,7 @@
                 span{
                     width:100%;
                     height:3px;
-                    background-color:$primary;
+                    background-color:#fff;
                     transform-origin: left;
                     transition: all 2s ease;
                     
@@ -89,7 +89,7 @@
     
 
     &.active{
-        background-color: $mainColor;
+        background-color: $primary;
         color:#fff;
 
 
