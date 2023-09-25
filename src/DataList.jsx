@@ -113,37 +113,37 @@ export const  portfolioMobile = [
 export const  designPortfolio = [
     {
         id: 1,
-        title:'Design App',
+        name:'Design App',
         img:'https://cdn.dribbble.com/userupload/2837889/file/original-324b267be5f0f3fc0b7f1242872d6e3b.jpg?resize=640x480&vertical=center',
     },
 
     {
         id: 2,
-        title:'Design App',
+        name:'Design App',
         img:  'https://cdn.dribbble.com/users/1875714/screenshots/7009514/media/f3fb5ed409a70af59fcba36ec76e8867.png?resize=450x338&vertical=center',
     },
 
     {
         id: 3,
-        title:'Design App',
+        name:'Design App',
         img:  'https://cdn.dribbble.com/userupload/8616275/file/still-fcaf11b984f776ec7784381eb0f395d2.png?resize=450x338&vertical=center',
     },
 
     {
         id: 4,
-        title:'Design App',
+        name:'Design App',
         img:  'https://cdn.dribbble.com/userupload/2987771/file/original-615cac5efcbf14acfa9677d3c627c76d.png?resize=450x338&vertical=center',
     },
 
     {
         id: 5,
-        title:'Design App',
+        name:'Design App',
         img:  'https://cdn.dribbble.com/users/1963775/screenshots/16886313/conceptzilla_onboarding_animation.png?resize=450x338&vertical=center',
     },
 
     {
         id: 6,
-        title:'Design App',
+        name:'Design App',
         img:  'https://cdn.dribbble.com/userupload/9671756/file/original-8b079472887ec6e9852df7e9e6229c09.jpg?resize=280x210',
     },
 ];
@@ -152,37 +152,37 @@ export const  designPortfolio = [
 export const  contentPortfolio = [
     {
         id: 1,
-        title:'Content App',
+        name:'Content App',
         img:'https://cdn.dribbble.com/userupload/7394556/file/original-e3054c15427f309a1bb3f1dca10c7a75.png?resize=640x480&vertical=center',
     },
 
     {
         id: 2,
-        title:'Content App',
+        name:'Content App',
         img:  'https://cdn.dribbble.com/userupload/5863842/file/original-562443dc06c934997f757981e44b69f9.png?resize=640x480&vertical=center',
     },
 
     {
         id: 3,
-        title:'Content App',
+        name:'Content App',
         img:  'https://cdn.dribbble.com/users/110372/screenshots/3898209/media/7974f645a549330726cdc1630e5f73d3.gif',
     },
 
     {
         id: 4,
-        title:'Content App',
+        name:'Content App',
         img:  'https://cdn.dribbble.com/users/194964/screenshots/11666447/hrki_mobile.png?resize=450x338&vertical=center',
     },
 
     {
         id: 5,
-        title:'Content App',
+        name:'Content App',
         img:  'https://cdn.dribbble.com/users/418188/screenshots/15980950/habit_builder_app_tubik_design.png?resize=450x338&vertical=center',
     },
 
     {
         id: 6,
-        title:'Content App',
+        name:'Content App',
         img:  'https://cdn.dribbble.com/userupload/6016169/file/original-109f1b0483c617513c75e004b05f5bb8.png?resize=450x338&vertical=center',
     },
 ];
