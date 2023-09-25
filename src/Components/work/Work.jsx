@@ -1,6 +1,6 @@
 import '../work/work.scss'
 import { useState } from 'react'
-import {WorkList} from '../../WorkList'
+import {work} from '../../WorkList'
 
 function Work() {
   const [slides, setSlides] = useState([])
@@ -10,7 +10,7 @@ function Work() {
     <div className='work' id="work">
     <div className='slides' style={{transform:`translate (${slides * 100}vw)`}}>
        {
-        WorkList.map((data)=>(
+        work.map((data)=>(
          
           
           <div className='containter'>
@@ -18,12 +18,15 @@ function Work() {
       <div className='icons'>
       <img src={data.icon} alt='' />
       </div>
-      <p></p>
+      <h2>{data.title}</h2>
+      <p>{data.desc}</p>
 
-      <h3>Projects</h3>
+      <span>Projects</span>
     </div>
 
-    <div className='right'></div>
+    <div className='right'>
+     <img src={data.img}/>
+    </div>
 
     </div>
     
