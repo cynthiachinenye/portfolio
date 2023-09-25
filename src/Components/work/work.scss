@@ -1,5 +1,37 @@
 @import '../../gobal.scss';
 
 .work{
-    background-color: grey;
+    background-color:$secondary;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+
+
+      .slider{
+        height:350px;
+        display: flex;
+        position:absolute;
+        left:0;
+        transition:all 1s ease;
+      }
+
+      .container{
+        width:700px;
+        height:100%;
+        background-color:#fff;
+        border-radius:20px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+
+
+        .left{
+            flex:4;
+            height:80%;
+            
+        }
+      }
+
+
 }
