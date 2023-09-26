@@ -1,39 +1,26 @@
 
-export const work = [
-
+export const dataSlide=[
     {
-        id:1,
+        id:'1',
+        icon: './Assets/phone2.png',
         title:'Web Design',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus vehicula pretium lacus, aliquam mattis nulla condimentum eget. Sed vel lorem et odio iaculis volutpat. Nulla ultrices imperdiet leo vitae rutrum',
-        img:'https://cdn.dribbble.com/userupload/10064562/file/still-9afcc29853b3b46b864a05045832ad81.png?resize=640x480&vertical=center',
-        icon:'Assets/world.png',
+        desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit Nunc vitae mi diam Vestibulum ante ipsum primis',
+        img:'https://cdn.dribbble.com/users/592613/screenshots/16918244/media/94a69d37939f62710de1ce34ca298571.png?resize=450x338&vertical=center',
     },
 
     {
-        id:2,
-        title:'content',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus vehicula pretium lacus, aliquam mattis nulla condimentum eget. Sed vel lorem et odio iaculis volutpat. Nulla ultrices imperdiet leo vitae rutrum',
-        img:'https://cdn.dribbble.com/userupload/10117765/file/still-7fc5611410d27f6f860c5d39641df917.png?resize=450x338&vertical=center',
-        icon:'Assets/writing.png',
-
+        id:'2',
+        icon:'./Assets/writing.png',
+        title:'Content Creator',
+        desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit Nunc vitae mi diam Vestibulum ante ipsum primis',
+        img:'https://cdn.dribbble.com/userupload/6771805/file/original-8b88ef6683f1f7a56496eb2c46b3c557.png?resize=640x480&vertical=center',
     },
 
     {
-        id:3,
-        title:'Product',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus vehicula pretium lacus, aliquam mattis nulla condimentum eget. Sed vel lorem et odio iaculis volutpat. Nulla ultrices imperdiet leo vitae rutrum',
-        img:'https://cdn.dribbble.com/userupload/10117765/file/still-7fc5611410d27f6f860c5d39641df917.png?resize=450x338&vertical=center',
-        icon:'Assets/phone2.png',
-
+        id:'3',
+        icon:'./Assets/world.png',
+        title:'Mobile Data',
+        desc:'Lorem ipsum dolor sit amet consectetur adipiscing elit Nunc vitae mi diam Vestibulum ante ipsum primis',
+        img:'https://cdn.dribbble.com/users/110372/screenshots/3898209/media/7974f645a549330726cdc1630e5f73d3.gif',
     },
-    {
-        id:4,
-        title:'Mobile',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus vehicula pretium lacus, aliquam mattis nulla condimentum eget. Sed vel lorem et odio iaculis volutpat. Nulla ultrices imperdiet leo vitae rutrum',
-        img:'https://cdn.dribbble.com/userupload/10117765/file/still-7fc5611410d27f6f860c5d39641df917.png?resize=450x338&vertical=center',
-        icon:'Assets/phone2.png',
-
-    },
-
-
 ]
